@@ -86,6 +86,10 @@ func shuffle(arr *[]int) {
 	var j int
 	for i := range *arr {
 		j = rand.Int() % len(*arr)
-		(*arr)[i], (*arr)[j] = (*arr)[j], (*arr)[i]
+		swap(arr, i, j)
 	}
+}
+
+func swap(arr *[]int, i int, j int) {
+	(*arr)[i], (*arr)[j] = (*arr)[j], (*arr)[i]
 }
