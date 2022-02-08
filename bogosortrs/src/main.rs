@@ -1,6 +1,7 @@
 use rand::{thread_rng, Rng};
 use std::io::Write;
 
+
 fn main() {
     let mut elements: Vec<i32> = vec![];
 
@@ -46,7 +47,6 @@ fn main() {
 
     println!("Sorted.");
     println!("{:?}", elements);
-
 }
 
 fn bogosort(arr: &mut Vec<i32>) {
