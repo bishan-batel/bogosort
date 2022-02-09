@@ -1,3 +1,0 @@
-/home/bishan/code/cli/bogosort/bogosortc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bishan/code/cli/bogosort/bogosortc/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bishan/code/cli/bogosort/bogosortc/cmake-build-debug/CMakeFiles/bogosortc.dir
