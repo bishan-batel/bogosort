@@ -44,7 +44,7 @@ int main() {
     int length = 0;
     char response = 'n';
 
-    int *arr = calloc(0, 0);
+    int *arr = NULL;
 
     while (response != 'y') {
         printf("Do you want to quit (y/n): ");
@@ -52,14 +52,18 @@ int main() {
 
         printf("Enter a number: ");
 
-        int new = 0;
-        scanf("%d", &new);
+        int added = 0;
+        scanf("%d", &added);
 
         length++;
-        int *newArr = malloc(sizeof(int) * length);
+        // not experienced enough with C to know what to use for dynamic sized lists,
+        // I could google it or I could do some horrible jank and just allocate memory for a
+        // new sized array each time, copy the contents, and delete the old
 
+        // Im sorry whoever has to see this code 
+        int *newArr = malloc(sizeof(int) * length);
         memcpy(newArr, arr, sizeof(int) * (length - 1));
-        newArr[length - 1] = new;
+        newArr[length - 1] = added;
         free(arr);
         arr = newArr;
     }
