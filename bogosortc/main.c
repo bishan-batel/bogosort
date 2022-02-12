@@ -68,7 +68,7 @@ int main() {
     printf("Sorting . . .\n");
     bogosort(arr, length);
 
-    printf("Sorted`");
+    printf("Sorted\n");
     printArr(arr, length);
     return 0;
 }
