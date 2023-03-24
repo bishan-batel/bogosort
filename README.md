@@ -14,7 +14,7 @@ The program itself should follow this order
 5. Bogosort
 6. Print out the sorted array
 
-Each program hsould also have (at minimum) these methods / functions
+Each program should also have (at minimum) these methods / functions
 
 - swap method for array
 - bogosort method
